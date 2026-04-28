@@ -1,0 +1,19 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="32" fill="url(#bg)"/>
+  <circle cx="690" cy="120" r="70" fill="#FDE68A"/>
+  <rect x="86" y="90" width="360" height="460" rx="28" fill="#4C1D95"/>
+  <rect x="110" y="120" width="312" height="404" rx="22" fill="#7C3AED"/>
+  <text x="140" y="200" fill="white" font-family="Arial" font-size="34" font-weight="700">100 cosas</text>
+  <text x="140" y="245" fill="white" font-family="Arial" font-size="34" font-weight="700">que debes</text>
+  <text x="140" y="290" fill="#DDD6FE" font-family="Arial" font-size="30" font-weight="700">hacer sol@</text>
+  <rect x="500" y="220" width="300" height="220" rx="26" fill="#F5F3FF"/>
+  <path d="M540 350C578 303 628 288 680 305C725 320 748 353 760 390" stroke="#7C3AED" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="578" cy="276" r="20" fill="#8B5CF6"/>
+  <circle cx="716" cy="286" r="20" fill="#8B5CF6"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDE9FE"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+</svg>

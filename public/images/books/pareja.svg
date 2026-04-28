@@ -1,0 +1,8 @@
+<svg width="480" height="720" viewBox="0 0 480 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="480" height="720" rx="24" fill="#1D4ED8"/>
+<rect x="24" y="24" width="432" height="672" rx="18" fill="#3B82F6"/>
+<text x="58" y="170" fill="white" font-family="Arial" font-size="50" font-weight="700">100 cosas</text>
+<text x="58" y="234" fill="white" font-family="Arial" font-size="50" font-weight="700">que debes</text>
+<text x="58" y="298" fill="#DBEAFE" font-family="Arial" font-size="44" font-weight="700">en pareja</text>
+<path d="M220 530C200 480 138 478 132 540C126 600 220 648 220 648C220 648 314 600 308 540C302 478 240 480 220 530Z" fill="#FCA5A5"/>
+</svg>

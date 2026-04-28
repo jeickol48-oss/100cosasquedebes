@@ -1,0 +1,8 @@
+<svg width="480" height="720" viewBox="0 0 480 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="480" height="720" rx="24" fill="#4C1D95"/>
+<rect x="24" y="24" width="432" height="672" rx="18" fill="#7C3AED"/>
+<text x="58" y="170" fill="white" font-family="Arial" font-size="50" font-weight="700">100 cosas</text>
+<text x="58" y="234" fill="white" font-family="Arial" font-size="50" font-weight="700">que debes</text>
+<text x="58" y="298" fill="#EDE9FE" font-family="Arial" font-size="44" font-weight="700">hacer sol@</text>
+<circle cx="360" cy="560" r="66" fill="#FDE68A"/>
+</svg>
