@@ -6,7 +6,11 @@ export const books = [
     descripcion:
       "Una guía práctica con 100 ideas para salir, aprender, cuidarte y crecer disfrutando tiempo a solas.",
     estado: "disponible",
-    ctaLabel: "Descargar PDF",
+    categoria: "Autoconocimiento",
+    paginas: 112,
+    formato: "PDF",
+    coverImage: "/images/books/solo.svg",
+    ctaLabel: "Descargar muestra",
     ctaUrl: "#",
   },
   {
@@ -16,6 +20,10 @@ export const books = [
     descripcion:
       "Planes y rituales para fortalecer la conexión y salir de la rutina con experiencias memorables.",
     estado: "proximamente",
+    categoria: "Relaciones",
+    paginas: 120,
+    formato: "PDF",
+    coverImage: "/images/books/pareja.svg",
     ctaLabel: "Avisarme",
     ctaUrl: "#newsletter",
   },
@@ -26,6 +34,10 @@ export const books = [
     descripcion:
       "Acciones concretas para enfocarte mejor, organizar tu día y avanzar en tus objetivos sin burnout.",
     estado: "proximamente",
+    categoria: "Productividad",
+    paginas: 104,
+    formato: "PDF",
+    coverImage: "/images/books/productividad.svg",
     ctaLabel: "Avisarme",
     ctaUrl: "#newsletter",
   },

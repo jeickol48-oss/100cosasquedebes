@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useMemo, useState } from "react";
 
 function statusBadge(status) {
@@ -18,7 +19,7 @@ export default function BookCatalog({ books }) {
     if (!normalized) return books;
 
     return books.filter((book) => {
-      const combined = `${book.titulo} ${book.subtitulo} ${book.descripcion}`.toLowerCase();
+      const combined = `${book.titulo} ${book.subtitulo} ${book.descripcion} ${book.categoria}`.toLowerCase();
       return combined.includes(normalized);
     });
   }, [books, query]);
@@ -27,7 +28,10 @@ export default function BookCatalog({ books }) {
     <section id="catalogo" className="section section-soft">
       <div className="container">
         <div className="section-header">
-          <h2>Catálogo de libros</h2>
+          <div>
+            <p className="mini-title">Biblioteca digital</p>
+            <h2>Catálogo de libros</h2>
+          </div>
           <label className="search">
             <span>Buscar</span>
             <input
@@ -44,10 +48,23 @@ export default function BookCatalog({ books }) {
           {filteredBooks.length ? (
             filteredBooks.map((book) => (
               <article key={book.slug} className="book-card">
-                <div className="cover small">{book.titulo}</div>
+                <div className="book-cover-wrap">
+                  <Image
+                    src={book.coverImage}
+                    alt={`Portada de ${book.titulo}`}
+                    width={240}
+                    height={360}
+                    className="book-cover"
+                  />
+                </div>
                 {statusBadge(book.estado)}
                 <h3>{book.titulo}</h3>
                 <p>{book.descripcion}</p>
+                <ul className="book-meta">
+                  <li>{book.categoria}</li>
+                  <li>{book.paginas} páginas</li>
+                  <li>{book.formato}</li>
+                </ul>
                 <a className="btn btn-secondary" href={book.ctaUrl}>
                   {book.ctaLabel}
                 </a>
